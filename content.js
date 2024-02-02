@@ -4,7 +4,10 @@ chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
       var lastName = getValueBySelector('.pv-top-card-section__last-name');
       var position = getValueBySelector('.pv-top-card-section__headline');
       var company = getValueBySelector('.pv-top-card-section__company');
-  
+      console.log(firstName)
+      console.log(lastName)
+      console.log(position)
+      console.log(company)
       chrome.runtime.sendMessage({
         action: 'sendToGoogleSheets',
         data: { firstName, lastName, position, company }
