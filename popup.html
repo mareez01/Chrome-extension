@@ -1,12 +1,42 @@
 <!-- popup.html -->
-
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LinkedIn Inspector Popup</title>
+  <title>LinkedIn Data Extractor</title>
+  <style>
+    body,div{
+      width: 250px;
+      height: 200px;
+      background-color: antiquewhite;
+      color:blue;
+    }
+    h2,p{
+      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 24px;
+      margin: 20px 10px;
+    }
+    button{
+      border-radius: 10px;
+      background-color: blueviolet;
+      color: whitesmoke;
+      font-size: 20px;
+      text-align: center;
+      padding: auto;
+      margin-left: 70px;
+    }
+    button:hover{
+      background-color: blue;
+    }
+  </style>
 </head>
 <body>
-  <button id="openDevTools">Open DevTools</button>
+  <div id="home">
+  <h2>LinkedIn Data Collector</h2>
+  <p>Trasnfer data in one click</p>
+  </div>
+  <button id="extractData">Extract Data</button>
   <script src="popup.js"></script>
+  <script src="background.js"></script>
 </body>
 </html>

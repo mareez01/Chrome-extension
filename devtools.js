@@ -1,3 +1,2 @@
 // devtools.js
-
-chrome.devtools.panels.create('LinkedIn Inspector', 'panel.html');
+chrome.devtools.panels.create("My Extension", "", "panel.html");
