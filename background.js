@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener(async (message, sender, sendResponse) => {
 
     // Check if data is extracted
     if (dataArray.length > 0) {
-      const id = 'AAKfycbxYH41B0vimUGL8jgRQNRFbDU0GZO_jhONYCzzHmiElrIPEVmUlmZ_8gJ4SJDW5deHeUA';
+      const id = 'AKfycbzhLuJ1ry-POdBQgDZbvAWjWnfbU3uqdIivysD_saSlIbkd8zo3BD9d8Cxz3loZl8IfTg';
       const url = `https://script.google.com/macros/s/${id}/exec`;
 
       try {
